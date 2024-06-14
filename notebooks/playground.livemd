@@ -1,0 +1,11 @@
+# Playground
+
+```elixir
+Mix.install(
+  [
+    {:battleship, path: Path.join(__DIR__, ".."), env: :dev}
+  ],
+  config_path: :battleship,
+  lockfile: :battleship
+)
+```
